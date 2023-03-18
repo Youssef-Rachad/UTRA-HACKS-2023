@@ -1,5 +1,5 @@
-int IRSensor = 5; // connect IR sensor module to Arduino pin A5
-int LED = 1; // connect LED to Arduino pin 13
+int IRSensor = 0; // connect IR sensor module to Arduino pin A5
+int LED = 1; // connect LED to Arduino pin 13 NOT USED :)
 
 void setup(){
   Serial.begin(115200); // Init Serial at 115200 Baud Rate.
